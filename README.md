@@ -45,8 +45,8 @@
     *	Certifications are tracked by a unique Certification ID.
     *	Title is the type of certification: (Supervisor, phlebotomist, volunteer).
       *	Each title must be unique.
- 
- 6.	**Certified_As:**
+
+  6. **Certified_As:**
     *	Many-to-many relationship between Employees and their Certifications
       *	Emp_id is a FK which references Employee ID
       *	Cert_id is a FK which references Certifications ID
