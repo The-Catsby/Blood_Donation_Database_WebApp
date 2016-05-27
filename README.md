@@ -1,10 +1,10 @@
 #CS 340 Database App
 
 ### Totally not Vampires: 
-#### A Non-Profit Blood Donation Organization
+*A Non-Profit Blood Donation Organization*
 
 ### Outline:
-  This database will be used to organize the hypothetical Totally not Vampires network of blood donation clinics. Due to the nature of the medical field it is vital that all aspects of the organization are properly tracked and maintained between donors, blood, employees, and clinics. The database will keep track of donor information, number and type of blood specimens, clinic locations, and the employees needed to manage demand.
+  This database will be used to organize the hypothetical *Totally not Vampires* network of blood donation clinics. Due to the nature of the medical field it is vital that all aspects of the organization are properly tracked and maintained between donors, blood, employees, and clinics. The database will keep track of donor information, number and type of blood specimens, clinic locations, and the employees needed to manage demand.
 
   Donors can come to any of our clinics and donate one unit of their blood specimen. Donor information will be accurately recorded by clinic employees and entered into the database. It is vital to maintain accurate information as blood samples must be linked to a donor. Each clinic is self-sustaining and can test blood samples on site for blood type and purity. Each clinic has a staff of employees with specific roles needed to accomplish our organizational goals. 
 
