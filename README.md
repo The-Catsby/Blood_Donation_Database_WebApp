@@ -10,13 +10,16 @@
 
 ### Database Outline:
   1.	Donors:
-    a.	Donors are tracked by a unique donor ID.
+ 
+   a.	Donors are tracked by a unique donor ID.
     b.	Personal information includes first name, last name, age, and sex.
       i.	The combination of the Donor’s first and last name must be unique.
       ii.	Donor’s sex is not a mandatory field. * 
     c.	Donors must be at least 17 years of age.
     d.	Donors can donate at any clinic any number of times.
+
   2.	Blood:
+
     e.	Blood is tracked by a unique ID.
     f.	BloodType is how the blood is categorized: (A+/-, B+/-, AB+/-, O+/-, N/A). 
       i.	N/A refers to blood that has not been processed yet.
@@ -27,21 +30,29 @@
       i.	Clinic_id is a FK which references the ID of the Clinic that stores the blood.
       i.	Blood specimens must be stored at one clinic.
     j.	DonateDate is the date the blood sample was received. 
+
   3.	Clinic:
-    a.	Clinics are tracked by unique clinic ID.
+ 
+   a.	Clinics are tracked by unique clinic ID.
     b.	Each clinic has a name and location.
       i.	The combination of the clinic’s name and location must be unique
+
   4.	Employees:
+
     a.	Employees are tracked by unique Employee ID.
     b.	Clinic_id is a FK which references the Clinic ID which they work at.
       i.	Employees must work at a single Clinic.
     c.	Personal information includes Fname, Lname, and sex.
       i.	The combination of an employee’s first and last name must be unique
+
   5.	Certifications:
+
     a.	Certifications are tracked by a unique Certification ID.
     b.	Title is the type of certification: (Supervisor, phlebotomist, volunteer).
       i.	Each title must be unique.
-  6.	Certified_As:
+ 
+ 6.	Certified_As:
+
     a.	Many-to-many relationship between Employees and their Certifications
       i.	Emp_id is a FK which references Employee ID
       ii.	Cert_id is a FK which references Certifications ID
