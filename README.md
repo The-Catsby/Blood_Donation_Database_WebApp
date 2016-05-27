@@ -1,6 +1,6 @@
 #CS 340 Database App
 
-### Totally not Vampires: 
+### Totally Not Vampires: 
 *A Non-Profit Blood Donation Organization*
 
 ### Outline:
